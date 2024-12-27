@@ -13,7 +13,7 @@
 }
 
 .calculator {
-	background-color: #22252D;
+	background-color: #3d3d6a;
 	width: 100%;
 	max-width: 375px;
 	min-height: 640px;
@@ -56,7 +56,7 @@
 }
 
 .display .operator {
-	color: #EB6666;
+	color: #740000;
 }
 
 .display .brackets,
@@ -65,7 +65,7 @@
 }
 
 .keys {
-	background-color: #292D36;
+	background-color: #3d3d6a;
 	padding: 1.5rem;
 	border-radius: 1.5rem 1.5rem 0 0;
 	display: grid;
@@ -96,7 +96,7 @@
 
 	font-size: 2rem;
 	font-weight: 700;
-	color: #FFF;
+	color: rgb(255, 255, 255);
 }
 
 .keys .key:hover {
@@ -104,7 +104,7 @@
 }
 
 .keys .key.operator span {
-	color: #EB6666;
+	color: #740000;
 }
 
 .keys .key.action span {
